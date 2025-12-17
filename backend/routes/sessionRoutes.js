@@ -17,9 +17,9 @@ router.put("/pause/:id", pauseSession); // ⏸️ Pause timer
 router.put("/resume/:id", resumeSession); // ▶️ Resume timer
 router.put("/stop/:id", stopSession); // ⏹️ Stop timer
 
-router.get("/", getAllSession);               // 📋 Get all sessions
-router.get("/:id", getSingleSession);                // 📄 Get single session
-router.put("/:id", updateSession);             // ✏️ Edit topic/description
+router.get("/", getAllSession);               
+router.get("/:id", getSingleSession);                // 📄on
+router.put("/:id", updateSession);            
 router.delete("/:id", deleteSession); 
 
 export default router;
